@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.address .vr-line{
+    width: 1px;
+    height: 28px;
+    background-color: #dcdcdc;
+}
+.social-link ul{
+    list-style: none;
+}
+.social-link ul li{
+    padding: 0 6px;
+}
+.social-link ul li a i{
+    background-color: #c2c2c2;
+    padding: 10px;
+    border-radius:50% ;
+}
+.social-link ul li a i{
+    color: #ffff;
+}
+.social-link ul li a i:hover{
+    background-color: #F35525;
+}
+.hr-style{
+    border: none;
+    border-bottom: 1px solid #c4c3c3;
+}
+.address i{
+    color: #F35525;
+    font-size: 20px;
+}
+.address p span{
+    font-size: 16px;
+    color: #747474;
+}
+
+/* navbar */
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #252525;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #8b8b8b;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 12px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #F35525;
+}
+.nav-item .home{
+    color: #F35525 !important; 
+}
+.visit a{
+    margin: 0;
+    text-decoration: none;
+    color: #ffff;
+    background: #252525;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    border-radius: 30px;
+}
+.visit a i{
+    margin: 0;
+    background-color: #F35525;
+    padding: 13px;
+    border-radius: 50%;
+}
+.visit a span{
+    padding-left: 5px;
+}
