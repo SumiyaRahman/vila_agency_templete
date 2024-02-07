@@ -43,6 +43,27 @@
     font-size: 16px;
     color: #747474;
 }
+.sign-log a{
+    text-decoration: none;
+    color: #fff;
+}
+.sign-log .sign{
+    background-color: #252525;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.sign-log .sign:hover{
+    background-color: #F35525;
+}
+.sign-log .log{
+    background-color: #F35525;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
 
 /* navbar */
 .navbar-brand{
@@ -116,4 +137,256 @@
     font-size: 3.5rem;
     font-weight: 700;
     color: #f5f5f5;
+}
+
+/* featured */
+.featured{
+    margin: 100px 0;
+}
+.featured .fea-img{
+    position: relative;
+}
+.featured .fea-img img{
+    border-radius: 5px;
+}
+.featured .notice{
+    width: 100px;
+    height: 100px;
+    background-color: #F35525;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+}
+.fea-line{
+    width: 2px;
+    height: 14px;
+    background-color: #F35525;
+}
+.short-h{
+    color: #F35525;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.best-head{
+    font-size: 900;
+    color: #252525;
+}
+.short-fea-details{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+.short-fea-details span{
+    color: #F35525;
+    font-weight: 500;
+    font-size: 18px;
+}
+.short-fea-details hr{
+    border-bottom: 1px solid #dcdcdc;
+}
+.flat{
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.flat-info{
+    display: flex;
+    align-items: center;
+}
+.flat-info i{
+    font-size: 3rem;
+    color: #F35525;
+}
+.flat-info h3{
+    margin: 0;
+}
+.flat-info p{
+    margin-top: 12px;
+}
+.f-h{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #252525;
+}
+.f-h-s{
+    color: rgb(184, 184, 184);
+}
+
+/* bet deal */
+.best-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.find-h{
+    font-weight: 600;
+    font-size: 3rem;
+}
+button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.appartment{
+    background-color: #F35525;
+}
+.villa-penth{
+    background-color: #252525;
+}
+
+/* room-details */
+.room-details{
+    display: flex;
+    justify-content: center;
+}
+.room-type{
+    background-color: #FAFAFA;
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.room-type p{
+    color: #c0c0c0;
+}
+.room-type span{
+    color: #252525;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.room-img{
+    display: flex;
+    justify-content: center;
+}
+.extra-info-sec{
+    padding-left: 50px;
+}
+.extra-info-sec p{
+    line-height: 30px;
+    font-size: 14px;
+}
+.extra-info{
+    font-weight: 600;
+    font-size: 16px;
+}
+.schedule{
+    background-color: #252525;
+    width: 13rem;
+    border-radius: 50px;
+}
+.schedule a{
+    margin: 0;
+    text-decoration: none;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    border-radius: 15px 5px 5px 15px;
+    color: #ffff;
+    font-size: 15px;
+}
+.schedule i{
+    margin: 0;
+    color: #ffff;
+    background-color: #F35525;
+    padding: 16px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+/* property */
+.property{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.property-h{
+    display: flex;
+    justify-content: center;
+}
+.property h1{
+    font-weight: 700;
+    line-height: 60px;
+}
+.property-sec{
+    margin-top: 8 0px;
+}
+.card{
+    border: none;
+    background-color: #fcfcfc;
+}
+.card img{
+    padding: 40px 40px 30px 40px;
+}
+.category-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.category-sec .category{
+    background-color: lightsalmon;
+    padding: 4px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.category-sec .cat-price{
+    color: #F35525;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-title{
+    padding: 30px 20px 20px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.house-details{
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.house-details p{
+    color: #252525;
+}
+.house-details .measurement{
+    font-weight: 700;
+}
+.pro-hr{
+    border-bottom: 1px solid #f0f0f0;
+}
+.sch-visit{
+    display: flex;
+    justify-content: center;
+}
+.sch-visit a{
+    background-color: #252525;
+    color: #ffff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.sch-visit a:hover{
+    background-color: #F35525;
+}
+
+/* footer */
+footer{
+    margin: 0;
+}
+footer p{
+    background-color: #252525;
+    color: #ffff;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
 }
